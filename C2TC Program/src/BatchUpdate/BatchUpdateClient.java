@@ -37,5 +37,5 @@ public class BatchUpdateClient {
 		        	 st.close();
 		         }catch(Execption e) {
 		        	 System.out.println
-		         }
-		         }
+	 }
+  }
