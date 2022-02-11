@@ -1,7 +1,8 @@
 package generics;
 
-interface MinMax<T extends Comparable><T>
-{
+interface MinMax<T extends Comparable>@SuppressWarnings("hiding")
+<T>
+
 	T min();
 	T max();
 }
@@ -10,7 +11,7 @@ implements MinMax<T>
 
 {
 	 T[] values;
-	 GenericsInterfaceDemo(T []  obj)
+	 void GenericsInterfaceDemo(T []  obj)
 	 {
 		 values=obj;
 	 }
