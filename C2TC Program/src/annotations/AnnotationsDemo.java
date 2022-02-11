@@ -21,7 +21,7 @@ public class AnnotationsDemo{
 		Annotation an=c.getAnnotation(SmartPhone.class);
 		SmartPhone s=(SmartPhone)an;
 		System.out.println(s.os());
-		System.out.println(s.version);
+		System.out.println(s.version());
 		
 	}
 }
