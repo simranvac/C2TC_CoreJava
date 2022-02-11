@@ -13,7 +13,7 @@ import java.util.*;
        
        for(Map.entry m:map.entrySet()){
     	   System.out.println(m.getKey()+" "+ m.getValue());
-    	   // TODO Auto-generated method stub
+    	   
        }
 
 	}
